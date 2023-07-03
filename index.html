@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex layout</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css"
+        integrity="sha512-ZKX+BvQihRJPA8CROKBhDNvoc2aDMOdAlcm7TUQY+35XYtrd3yh95QOOhsPDQY9QnKE0Wqag9y38OIgEvb88cA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="site-brand">
+            <h1 class="site-title">the movies home</h1>
+            <p class="site-details">
+                set back | relax | watch
+            </p>
+        </div>
+        <nav class="main-menu">
+            <ul>
+                <li><a href="javascript:;">watch</a></li>
+                <li><a href="javascript:;">download</a></li>
+                <li><a href="javascript:;">gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="site-content">
+        <div class="main-content">
+            <section class="posts">
+                <article class="post one-half">
+                    <a href="javascript:;">
+                        <div class="post-img">
+                            <img src="./assets/images/img_1.jpg" alt="Fight Club" title="Fight Club">
+                        </div>
+                        <div class="post-content">
+                            <h2>fight club</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla magnam optio repudiandae
+                                modi, ullam eius voluptas autem nihil maxime asperiores.</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="post one-half">
+                    <a href="javascript:;">
+                        <div class="post-img">
+                            <img src="./assets/images/img_2.jpg" alt="jack sparrow" title="jack sparrow">
+                        </div>
+                        <div class="post-content">
+                            <h2>jack sparrow</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla magnam optio repudiandae
+                                modi, ullam eius voluptas autem nihil maxime asperiores.</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="post one-third">
+                    <a href="javascript:;">
+                        <div class="post-img">
+                            <img src="./assets/images/img_4.jpg" alt="sherlock" title="sherlock">
+                        </div>
+                        <div class="post-content">
+                            <h2>sherlock</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla magnam optio repudiandae
+                                modi, ullam eius voluptas autem nihil maxime asperiores.</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="post one-third">
+                    <a href="javascript:;">
+                        <div class="post-img">
+                            <img src="./assets/images/img_3.jpg" alt="good bad ugly" title="good bad ugly">
+                        </div>
+                        <div class="post-content">
+                            <h2>good bad ugly</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla magnam optio repudiandae
+                                modi, ullam eius voluptas autem nihil maxime asperiores.</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="post one-third">
+                    <a href="javascript:;">
+                        <div class="post-img">
+                            <img src="./assets/images/img_5.jpeg" alt="the dark night" title="the dark night">
+                        </div>
+                        <div class="post-content">
+                            <h2>the dark night</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla magnam optio repudiandae
+                                modi, ullam eius voluptas autem nihil maxime asperiores.</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="post one">
+                    <a href="javascript:;">
+                        <div class="post-img">
+                            <img src="./assets/images/img_6.jpg" alt="joker" title="joker">
+                        </div>
+                        <div class="post-content">
+                            <h2>joker</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla magnam optio repudiandae
+                                modi, ullam eius voluptas autem nihil maxime asperiores.</p>
+                        </div>
+                    </a>
+                </article>
+            </section>
+            <section class="watch">
+                <h2 class="section-heading">
+                    watch today
+                </h2>
+                <figure class="watch-card">
+                    <div class="watch-img">
+                        <img src="./assets/images/img_8.jpg" alt="baby driver" title="baby driver">
+                    </div>
+                    <figcaption class="watch-content">
+                        <h3>
+                            baby driver
+                        </h3>
+                        <div class="movie-info">
+                            <span>2018</span><span>124 min</span><span>action</span><span>7.9</span><span>8.15</span>
+                            <p class="movie-story">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae sunt repellat sit,
+                                ea, incidunt deleniti corporis modi excepturi deserunt vero temporibus quos, animi
+                                itaque rem!
+                            </p>
+                            <a href="javascript:;"> read more</a>
+                        </div>
+                    </figcaption>
+                </figure>
+                <figure class="watch-card">
+                    <div class="watch-img order-1">
+                        <img src="./assets/images/img_9.jpg" alt="fight club" title="fight club">
+                    </div>
+                    <figcaption class="watch-content">
+                        <h3>
+                            fight club
+                        </h3>
+                        <div class="movie-info">
+                            <span>2018</span><span>124 min</span><span>action</span><span>7.9</span><span>8.15</span>
+                            <p class="movie-story">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae sunt repellat sit,
+                                ea, incidunt deleniti corporis modi excepturi deserunt vero temporibus quos, animi
+                                itaque rem!
+                            </p>
+                            <a href="javascript:;"> read more</a>
+                        </div>
+                    </figcaption>
+                </figure>
+            </section>
+            <section class="download">
+                <h2 class="section-heading">
+                    download now
+                </h2>
+                <div class="download-card">
+                    <div class="download-img">
+                        <img src="./assets/images/img_11.png" alt="downlad movie" title="download movie">
+                    </div>
+                    <div class="download-content">
+                        <a href="javascript:;">
+                            download
+                            <i class="fa-solid fa-cloud-arrow-down fa-2x"></i>
+                        </a>
+                        <div class="download-info">
+                            <div class="genre">
+                                <h4>genre</h4>
+                                <p>:adventure, action, horror, drama</p>
+                            </div>
+                            <div class="cast">
+                                <h4>cast :</h4>
+                                <img src="./assets/images/img_11.jpg" alt="">
+                                <img src="./assets/images/img_12.jpg" alt="">
+                                <img src="./assets/images/img_13.jpg" alt="">
+                                <img src="./assets/images/img_14.jpg" alt="">
+                                <img src="./assets/images/img_15.jpg" alt="">
+
+                            </div>
+                        </div>
+                        <div class="rating">
+                            <span>8</span>
+                            <span>(1400 rating)</span>
+                            <span>(6 seasons)</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="gallery">
+                <h2 class="section-heading">
+                    gallery
+                </h2>
+                <div class="gallery-images">
+                    <div class="gallery-image">
+                        <a href="./assets/images/gallery_1.jpg" data-lightbox="gallery">
+                            <img src="./assets/images/gallery_1.jpg" alt="first">
+                        </a>
+                    </div>
+                    <div class="gallery-image">
+                        <a href="./assets/images/gallery_2.jpg" data-lightbox="gallery">
+                            <img src="./assets/images/gallery_2.jpg" alt="second">
+                        </a>
+                    </div>
+                    <div class="gallery-image">
+                        <a href="./assets/images/gallery_3.jpg" data-lightbox="gallery">
+                            <img src="./assets/images/gallery_3.jpg" alt="third">
+                        </a>
+                    </div>
+                    <div class="gallery-image">
+                        <a href="./assets/images/gallery_4.jpg" data-lightbox="gallery">
+                            <img src="./assets/images/gallery_4.jpg" alt="fourth">
+                        </a>
+                    </div>
+                    <div class="gallery-image">
+                        <a href="./assets/images/gallery_5.jpg" data-lightbox="gallery">
+                            <img src="./assets/images/gallery_5.jpg" alt="fifth">
+                        </a>
+                    </div>
+                    <div class="gallery-image">
+                        <a href="./assets/images/gallery_6.jpg" data-lightbox="gallery">
+                            <img src="./assets/images/gallery_6.jpg" alt="sixth">
+                        </a>
+                    </div>
+                    <div class="gallery-image">
+                        <a href="./assets/images/gallery_7.jpg" data-lightbox="gallery">
+                            <img src="./assets/images/gallery_7.jpg" alt="seventh">
+                        </a>
+                    </div>
+                    <div class="gallery-image">
+                        <a href="./assets/images/gallery_8.jpg" data-lightbox="gallery">
+                            <img src="./assets/images/gallery_8.jpg" alt="eight">
+                        </a>
+                    </div>
+                    <div class="gallery-image">
+                        <a href="./assets/images/gallery_9.jpg" data-lightbox="gallery">
+                            <img src="./assets/images/gallery_9.jpg" alt="nineth">
+                        </a>
+                    </div>
+                    <div class="gallery-image">
+                        <a href="./assets/images/gallery_10.jpg" data-lightbox="gallery">
+                            <img src="./assets/images/gallery_10.jpg" alt="tenth">
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <aside class="sideBar">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores molestiae dignissimos minima error
+                atque, non eum! Eius dolorem maiores officiis, quia dolorum repellat quis commodi odit. Et ipsum ipsam
+                atque quaerat quod perferendis nulla unde eius quo? Ab ducimus nihil officiis? Ut id voluptatibus
+                consequatur nihil tenetur quod, eaque sequi et delectus illum ratione, eligendi praesentium natus
+                blanditiis voluptatem ex possimus veniam odio, fugit mollitia optio voluptatum tempora temporibus.
+                Sequi, iste? Temporibus, alias illum? Harum consectetur dolorem soluta totam cupiditate nulla dolore
+                voluptates quia repellendus dicta quibusdam molestias facilis repudiandae!</p>
+        </aside>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox-plus-jquery.js"
+        integrity="sha512-oaWLach/xXzklmJDBjHkXngTCAkPch9YFqOSphnw590sy86CVEnAbcpw17QjkUGppGmVJojwqHmGO/7Xxx6HCw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
